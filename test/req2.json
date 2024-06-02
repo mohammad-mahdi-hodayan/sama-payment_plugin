@@ -1,0 +1,22 @@
+{
+    "uid": "27a32a6b-1e8c-46b6-a044-60dbc4821f3c",
+    "client_id": "3be750d16a61acf97b16b892798a5625cdb5636b",
+    "buyer": {
+        "phone_number": "09356564487"
+    },
+    "price": 10000,
+    "fee": 1000,
+    "is_paid": true,
+    "payment": {
+        "id": "1552f80b-b105-41bc-80b2-d6eb5c5aff6e",
+        "total_price": 11000,
+        "fee_price": 1000,
+        "request_id": "tuie2nmltr",
+        "paid_at": "2024-06-02T13:23:38.157000+03:30",
+        "reference_number": "23011392198",
+        "transaction_code": "ez0030232396",
+        "is_failed": false,
+        "message": null,
+        "result_code": "0"
+    }
+}

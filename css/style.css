@@ -1,0 +1,205 @@
+﻿@import url(fontiran.css);
+
+.iran_sans_font {
+	font-family: IRANSans !important;
+}
+
+.sama_bg_box,
+.sama_bg_box * {
+	direction: rtl !important;
+	font-family: IRANSans;
+}
+
+.sama_bg_box {
+	background-image: url(../images/plugin-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid rgba(217, 217, 217, 1);
+	border-radius: 8px;
+}
+
+.sama_main {
+	/*background: linear-gradient(249.92deg, rgba(225, 246, 255, 0.24) 30.88%, rgba(204, 255, 225, 0.24) 103.87%);*/
+	background-size: cover;
+}
+
+.sama_main_content {
+	padding: 2rem;
+	/*width: 90%;
+	margin: auto;*/
+}
+
+.sama_header_box {
+	display: flex;
+	align-items: stretch;
+}
+
+.logo_sama img {
+	width: 100%;
+}
+
+.logo_sama {
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sama_link_read_more {
+	margin-right: auto;
+	display: flex;
+	align-items: end;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	text-align: left;
+	color: rgba(0, 168, 232, 1);
+	cursor: pointer;
+}
+
+.sama_link_read_more i {
+	margin-right: 1rem;
+	line-height: 16px;
+	transform: scaleX(-1);
+	color: rgba(0, 168, 232, 1);
+}
+
+.sama_head_title {
+	margin-right: 1rem;
+	display: flex;
+	align-items: end;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 24px;
+	text-align: right;
+}
+
+.sama_head_title {
+	color: rgba(25, 70, 137, 1);
+}
+
+.sama_boxs_holder {
+	display: flex;
+	margin-top: 4rem;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.sama_option {
+	width: 45%;
+	border: 1px solid rgba(25, 70, 137, 1);
+	border-radius: 6px;
+	padding: 16px;
+	display: flex;
+	align-items: stretch;
+}
+
+.payment_icon {
+	width: 8%;
+}
+
+.payment_descriptions {
+	width: 64%;
+}
+
+.payment_select_btn_side {
+	width: 33%;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.payment_icon img {
+	width: 70%;
+	margin-left: auto;
+}
+
+.payment_title {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	text-align: right;
+	color: rgba(25, 70, 137, 1);
+	margin-bottom: 10px;
+}
+
+.info_item_sama {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 10px;
+	color: rgba(25, 70, 137, 1);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: right;
+}
+
+.info_item_sama:last-child {
+	margin-bottom: 0px;
+}
+
+.payment_select_button {
+	background: rgba(0, 150, 89, 1);
+	padding: 7px 13px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: right;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.sama_icon_item img {
+	width: 100%;
+}
+
+.sama_icon_item {
+	display: flex;
+	width: 5%;
+	align-items: center;
+	justify-content: right;
+	margin-left: 10px;
+}
+
+.sama_option.selected_option_sama {
+	border: 1px solid rgba(0, 150, 89, 1);
+	background: rgba(0, 150, 89, 0.08);
+}
+
+.info_item_sama_text {
+	width: calc(95% - 10px);
+}
+.payment_select_button_remove img{
+	width: 90%;
+    margin: auto;
+}
+
+.payment_select_button_remove {
+    width: 15%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+	cursor: pointer;
+}
+
+/* this is for themes that use --wp--style--global--content-size for checkout page */
+.woocommerce-checkout .woocommerce{
+	max-width: 1200px;
+} 
+@media only screen and (max-width: 1199px) {
+	.woocommerce-checkout .woocommerce{
+		max-width: 720px;
+	} 
+}
+@media only screen and (max-width: 700px) {
+	.woocommerce-checkout .woocommerce{
+		max-width: 380px;
+	} 
+}

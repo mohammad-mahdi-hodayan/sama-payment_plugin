@@ -1,0 +1,22 @@
+{
+    "uid": "e002395f-b0e7-47d5-a214-bf56028b5791",
+    "client_id": "46a71dfe1f32e69e5870feb80627208d2ca87ff8",
+    "buyer": {
+        "phone_number": "09356564487"
+    },
+    "price": 10000,
+    "fee": 1000,
+    "is_paid": false,
+    "payment": {
+        "id": "1a6968d2-46f3-443f-b1e4-9e7a6cc66ce7",
+        "total_price": 11000,
+        "fee_price": 1000,
+        "request_id": "tuidmu4ia9",
+        "paid_at": null,
+        "reference_number": "23011302483",
+        "transaction_code": "",
+        "is_failed": true,
+        "message": "\u062e\u0627\u0631\u062c \u0627\u0632 \u0645\u062d\u062f\u0648\u062f\u0647 \u06cc \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc \u062a\u0627\u06cc\u06cc\u062f",
+        "result_code": "5"
+    }
+}
